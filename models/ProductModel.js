@@ -71,10 +71,6 @@ const productScheme = mongoose.Schema(
       ],
       required: true,
     },
-    imageSlideshow: {
-      type: String,
-      required: true,
-    },
     sizes: [sizeStockSchema],
     color: {
       type: String,
